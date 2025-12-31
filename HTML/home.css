@@ -1,0 +1,55 @@
+.hh{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 40px;
+    margin-right: 20px;
+}
+.hh:hover{
+ text-decoration: underline;  
+ color: brown; 
+}
+.song{
+    font-size: 40px;
+}
+#ved{
+     font-size: 20px;
+    text-decoration: none;
+}
+
+#aud{
+     font-size: 20px;
+    text-decoration: none;
+}
+#det{
+    font-size: 20px;
+    text-decoration: none;
+}
+#ly{
+    font-size: 20px;
+    text-decoration: none;
+}
+#ved:hover{
+    text-decoration: underline;
+    color: brown;
+}
+#aud:hover{
+    text-decoration: underline;
+    color: brown;
+}
+#det:hover{
+    text-decoration: underline;
+    color: brown;
+}
+#ly:hover{
+    text-decoration: underline;
+    color: brown;
+}
+#po{
+    text-align: center;
+    color: red;
+}
+#po{
+    width: 650px;
+    text-align: center;
+    display: block;
+}

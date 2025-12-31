@@ -1,0 +1,39 @@
+#HHH{
+    color: rgb(255, 0, 0);
+}
+th{
+    color: rgb(255, 128, 0);
+}
+.pos{
+    color: darkgreen;
+}
+.poss{
+    color: red;
+}
+#aus{
+    color: rgb(255, 255, 0);
+}
+#sou{
+    color: green;
+}
+#eng{
+    color: red;
+}
+#ind{
+    color: blue;
+}
+#new{
+    color: black;
+}
+#sri{
+    color:yellowgreen;
+}
+#ban{
+    color: aquamarine;
+}
+#pak{
+    color: darkslategray;
+}
+.pot{
+    color: blue;
+}
