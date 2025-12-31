@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial;
+}
+
+.card {
+    width: 420px;
+    background: rgb(216, 216, 78);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    color: black;
+    border: 4px solid black;
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: -40px;
+    border: 4px solid black;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: lightgreen;
+    border: none;
+    color: darkgreen;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 4px solid darkgreen;
+}
+
+button:hover {
+    background: lightcyan;
+}

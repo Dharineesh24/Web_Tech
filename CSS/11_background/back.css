@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+.outer{
+    background-color:#FFCDC9;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, lightgreen,yellow);
+}
+
+/* .outer >.inner{
+    background-color: #FFF8DE;
+    height: 60%;
+    width: 75%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJtpkpW1PIgSqMA7yga62JyNtf3dVQicYE_g&s");
+} */
+

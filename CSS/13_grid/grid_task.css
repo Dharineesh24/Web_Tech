@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+.outer{
+    height: 100vh;
+    background-image: linear-gradient(orange, yellow);
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer > .inner{
+    width: 80vw;
+    background-color: white;
+    height: 70vh;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 20px;
+}
+
+.outer > h1{
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+.inner > .card{
+    /* border: 3px solid; */
+
+    background-size: cover;
+    background-position: top;
+    transition: all 1.3s ease-in;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card > h2{
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color:white;
+    text-shadow: 0px 2px 2px black;
+    font-size: 35px;
+}
+
+.inner > #card1{
+    grid-row: span 2;
+    background-image: url("https://images.pexels.com/photos/1955134/pexels-photo-1955134.jpeg");
+        border-top-left-radius: 20px;
+}
+
+.inner > #card2{
+    background-image: url("https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg");
+}
+.inner > #card3{
+    background-image: url("https://images.pexels.com/photos/1043458/pexels-photo-1043458.jpeg");
+        border-top-right-radius: 20px;
+}
+
+.inner > #card4{
+    grid-column: span 2;
+    background-image: url("https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg");
+}
+.inner > #card5{
+    background-image: url("https://images.pexels.com/photos/847393/pexels-photo-847393.jpeg");
+    border-bottom-left-radius: 20px;
+}
+.inner > #card6{
+    background-image: url("https://images.pexels.com/photos/33044/sunflower-sun-summer-yellow.jpg");
+}
+.inner > #card7{
+    background-image: url("https://images.pexels.com/photos/414181/pexels-photo-414181.jpeg");
+        border-bottom-right-radius: 20px;
+}
+
+.inner > .card:hover{
+    background-position: center;
+}
+

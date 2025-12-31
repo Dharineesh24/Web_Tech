@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    background: linear-gradient(to right top,black,red);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.outer > h1{
+    position: absolute;
+    top:40px;
+    color:white;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+    text-transform: capitalize;
+    font-size: 50px;
+    
+   border-right: 2px solid white;
+   animation: typing 3s steps(18) infinite;
+   white-space: nowrap;
+   overflow: hidden;
+}
+
+@keyframes typing {
+   0%{
+     width: 0;
+   }
+   50%{
+     width: 18ch;
+   }
+   100%{
+    width: 0;
+   }
+}
+
+.outer > .card{
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.4s;
+    box-shadow: 0px 2px 4px black;
+}
+
+#card1 > img{
+   height: 60%;
+   width: 100%;
+   object-fit: cover;
+   object-position: top right;
+}
+
+#card2 > img{
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+#card3 > img{
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    
+}
+
+.card > h2{
+    text-align: center;
+    margin-top: 30px;
+    letter-spacing: 2px;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}

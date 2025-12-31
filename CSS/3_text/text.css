@@ -1,0 +1,23 @@
+h1{
+    color: darkblue;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-decoration: underline;
+    text-shadow: -5px -5px 2px yellow;
+
+}
+
+p{
+    color: darkgreen;
+    text-align: justify;
+    font-size: 20px;
+    word-spacing: 5px;
+    text-indent: 50px;
+    line-height: 1.5;
+    
+}
+
+body{
+    background-color: rgb(195, 195, 171);
+}

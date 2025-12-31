@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#dhoni{
+    background-image: url(./images/dhoni.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#jadeja{
+    background-image: url(./images/jadeja.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#rohit{
+    background-image: url(./images/rohit.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#virat{
+    background-image: url(./images/virat1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.outer >h1{
+    font-size: 60px;
+    color: rgb(219, 248, 220);
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    
+}

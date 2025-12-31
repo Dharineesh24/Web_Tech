@@ -1,0 +1,79 @@
+.box1{
+    background-color: aqua;
+}
+.box1 p{
+    color: darkred;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.box1 > h2{
+    text-align: center;
+}
+.box1 > h2:hover{
+    text-decoration: underline;
+    color: blueviolet;
+}
+.box1 > button:hover{
+    background-color: red;
+    font-size: 20px;
+}
+.box1 > button:active{
+    background-color: green;
+}
+.box1 > ol >li{
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.box1 > ol >li:nth-child(7){
+    color: red;
+   
+}
+
+.box1 > ol >li:nth-child(2n+1){
+    background-color: blanchedalmond;
+}
+.box1 > ol >li:hover{
+    background-color: yellow;
+}
+.box2 > h1:nth-child(1){
+    color: red  ;
+}
+.box3 >h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+.box3 > p{
+    text-indent: 100px;
+}
+.box3 > p::first-letter{
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+.box3 > h1::after{
+    content: "---";
+    color: red;
+}
+.box3 > h1::before{
+    content: "---";
+    color: red;
+}
+.box3 > h1:hover{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.box3 > ul >::marker{
+    color: red;
+}
+.box3 > ul > li:nth-child(2n)::marker{
+    color: blue;
+}
+
+form > input[type="password"]{
+    background-color: lightblue;
+}
+

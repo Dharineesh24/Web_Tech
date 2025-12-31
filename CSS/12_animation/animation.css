@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    background:linear-gradient(rgb(186, 38, 38),white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer > .card1{
+    height: 300px;
+    width: 400px;
+     background:linear-gradient(rgb(207, 145, 145),rgb(181, 147, 84),rgb(98, 98, 44));
+     animation: movingbox 2s ease-in infinite alternate;
+}
+@keyframes movingbox{
+    from{
+
+    }
+    to{
+     transform: translate(-400px);   
+     border-radius: 50%;
+     background: linear-gradient(rgb(89, 89, 166),rgb(102, 40, 40));
+    }
+
+}
+
+.outer2{
+    height: 100vh;
+    background: linear-gradient(pink,rgb(64, 64, 134));
+    display: flex;
+    justify-content: space-around;
+    align-items: center     ;
+}
+.outer2 > .card2{
+    height: 300px;
+    width: 350px;
+    background-color: rgb(0, 0, 0);
+    animation: rotatebox 3s linear infinite ;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.outer2 > .card3{
+    height: 300px;
+    width: 350px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    border-top: 10px solid white;
+    border-radius: 50%;
+    animation: rotatebox 3s linear infinite ;
+}
+
+
+
+@keyframes rotatebox {
+    from{
+
+    }
+    to{
+        transform: rotate(360deg);
+        /* background: linear-gradient(white,green); */
+    }
+    
+}
+
+.outer3{
+    height: 100vh;
+}
+.outer3 > .inner{
+    background-color: orange;
+    height: 33%;
+}
+.outer3 > .inner2{
+    background-color: white;
+    height: 34%;
+    display: flex;
+    justify-content: center;
+}
+.outer3 > .inner3{
+    background-color: green;
+    height: 33%;
+}
+.outer4{
+    height: 100vh;
+    background-color: rgb(232, 232, 182);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.outer4 > .circle3{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    border: 3px solid black;
+    animation: harini 1s linear infinite ;
+}
+img{    animation: harini 3s linear infinite ;
+}
+.outer4 >.circle3 >.circle4{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid red;
+}
+@keyframes harini {
+    from{
+
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
+
+.last{
+    height: 100vh;
+    background:linear-gradient(rgb(160, 84, 84),rgb(129, 129, 74));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.last > .last2 {
+    background:linear-gradient(yellow,rgb(255, 214, 138),rgb(128, 221, 131));
+    height: 700px;
+    width: 700px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+.last > .last2 >.class{
+    /* height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: aquamarine; */
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 3px 4px black;
+    animation: melakela 3s ease-in infinite alternate;
+}
+
+@keyframes melakela {
+    form{
+
+    }
+    to{
+        transform: translateY(-200px);
+    }
+}
+#c1{
+    animation-delay: 0.1s;
+    
+}
+#c2{
+  
+     animation-delay: 0.2s;
+}
+#c3{
+     animation-delay: 0.3s;
+    
+}
+#c4{
+     animation-delay: 0.4s;
+    
+}
+#c5{
+     animation-delay: 0.5s;
+    
+}
+#c6{
+     animation-delay: 0.6s;
+    
+}
+#c7{
+     animation-delay: 0.7s;
+    
+}
+#c{
+     animation-delay: 0.8s;
+    
+}

@@ -1,0 +1,40 @@
+body{
+    background-color: lightblue;
+    padding: 20px;
+    margin: 20px;
+    justify-content: center;
+    display:flex;
+   
+}
+.code{
+    background-color: aliceblue;
+    width: 350px;
+    padding-left:40px;
+    margin: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    height: auto;
+
+}
+
+button{
+    background-color: blue;
+    color:white;
+    width: 302px;
+    padding: 7px;
+    border-radius: 10px;
+}
+input{
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: darkblue;
+}
+div:hover{
+    
+    box-shadow: 4px 4px 7px rgb(255, 132, 132);
+    background-color: rgb(225, 187, 187);
+}

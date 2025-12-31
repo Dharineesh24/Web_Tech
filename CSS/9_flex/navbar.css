@@ -1,0 +1,36 @@
+nav {
+    background: #e07a7a;
+    padding: 18px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+button{
+    background-color: aquamarine;
+    border-radius: 5px;
+}  
+
+button:hover{
+    background-color: rgb(157, 157, 232);
+}

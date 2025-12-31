@@ -1,0 +1,44 @@
+body {
+    background-image: url(./images/back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+header{
+    color: darkblue;
+    background-color: lightcyan;
+    text-align: center;
+}
+#cr7{
+    color: darkred;
+    text-align: center;
+}
+
+.box{
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.card{
+    background-color: yellow;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+/* uniiversal selector */
+*{
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+/* grp selector */
+h3,h4,.card,.box{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
