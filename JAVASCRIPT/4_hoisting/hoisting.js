@@ -1,10 +1,10 @@
-// console.log("Hiii");
+console.log("Hiii");
 
-// console.log("Helloo");
+console.log("Helloo");
 
-// console.log("Byeee");
+console.log("Byeee");
 
-// console.log(a);
+console.log(a);
 
 // let a=10;
 // let b=20;
@@ -15,4 +15,5 @@ hoist();
 
 function hoist(){
     console.log("Inside hoist function");
+
 }
